@@ -1,0 +1,1 @@
+local a=game:GetService("Lighting")local b=14;local c=10;local d=100000;local e=100000;local f=Color3.new(1,1,1)while true do a.ClockTime=b;a.Brightness=c;a.FogStart=d;a.FogEnd=e;a.FogColor=f;wait(1)end
