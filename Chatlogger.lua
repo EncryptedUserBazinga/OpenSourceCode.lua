@@ -1,1 +1,0 @@
-local a=workspace.CurrentCamera;a.FieldOfView=120;game:GetService("RunService").RenderStepped:Connect(function()if a.FieldOfView~=120 then a.FieldOfView=120 end end)
