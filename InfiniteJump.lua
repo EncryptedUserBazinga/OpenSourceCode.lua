@@ -1,0 +1,1 @@
+local a=game:GetService("UserInputService")local b=game.Players.LocalPlayer;local c=b.Character or b.CharacterAdded:Wait()local d=c:WaitForChild("Humanoid")a.JumpRequest:Connect(function()if d and d:GetState()~=Enum.HumanoidStateType.Dead then d:ChangeState(Enum.HumanoidStateType.Jumping)end end)
